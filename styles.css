@@ -1,0 +1,22 @@
+#home {
+  background: url("media/house1.jpg") bottom center/cover no-repeat;
+  min-height: 85vh;
+  position: relative; }
+  
+  
+#home #header {
+    z-index: 0; }
+    
+#home #header .display-5 {
+     font-weight: bold; }
+  
+#home #overlay {
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; }
+
+
