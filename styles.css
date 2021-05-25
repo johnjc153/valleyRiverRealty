@@ -1,6 +1,6 @@
 #home {
   background: url("media/house1.jpg") bottom center/cover no-repeat;
-  min-height: 85vh;
+  min-height: 80vh;
   position: relative; }
   
   
@@ -20,3 +20,6 @@
     z-index: 0; }
 
 
+#sec1 p {
+    line-height: 2rem;
+}
