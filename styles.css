@@ -1,6 +1,11 @@
+#navBut {
+    border-radius: .5rem;
+}
+
+
 #home {
   background: url("media/house1.jpg") bottom center/cover no-repeat;
-  min-height: 80vh;
+  min-height: 100vh;
   position: relative; }
   
   
@@ -11,7 +16,7 @@
      font-weight: bold; }
   
 #home #overlay {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -20,6 +25,6 @@
     z-index: 0; }
 
 
-#sec1 p {
-    line-height: 2rem;
+#par {
+    line-height: 2.5rem;
 }
