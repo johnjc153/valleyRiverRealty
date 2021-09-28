@@ -944,12 +944,42 @@ section {
 
 @media (max-width: 768px) {
   #projects .details-img-2 {
-    height: auto;
+    height: 50vh;
+    margin-top: 0;
+    margin-bottom: 0;
   }
-  #projects .details-img-2 img {
-    margin-left: 0;
-    padding-bottom: 30px;
+  
+  #projects .details-img-1 {
+    height: 50vh;
   }
+
+  #projects #content1 {
+  background-size: 800px 1000px;
+}
+
+#projects #content2 {
+  background-size: 800px 900px;
+}
+  
+  #projects .content-2 p {
+  padding-right: 0;
+  margin-left: 10px;
+  padding-bottom: 2rem;
+}
+
+#projects .content-1 {
+  padding-top: 2rem;
+}
+
+#projects .content-1 p {
+  margin-left: 10px;
+  padding-right: 0;
+}
+
+#projects .seeHomes {
+  display:flex;
+  justify-content: center;
+}
 }
 
 /* ============================= vProject =============================*/
