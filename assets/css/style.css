@@ -1624,6 +1624,7 @@ section {
 @media (max-width: 768px) {
   #abtHero {
     text-align: center;
+    height: calc(50vh - 110px);
   }
   #abtHero .container {
     padding-top: 40px;
