@@ -20,7 +20,7 @@
   --light-hover: rgba(255, 255, 255, 0.6);
   --dark-hover: rgba(44, 44, 44, 0.6);
   --color-hover: rgba(190, 190, 175, 0.4);
-  --hero-hover: rgba(114, 110, 121, 0.3);
+  --hero-hover: rgba(114, 110, 121, 0.6);
 
   --font-family1: "Raleway", sans-serif;
   --font-family2: "Ubuntu", sans-serif;
@@ -100,11 +100,24 @@ h6 {
   color: var(--color1);
 }
 
-.btn.btn-primary {
+.seeHomes {
+  -moz-text-align-last: right;
+  text-align-last: right;
+}
+
+.seeHomes {
+  display: inline-block;
   background: var(--color1);
-  background: linear-gradient(-45deg, var(--color1), var(--color2));
-  color: #fff;
-  box-shadow: 0 10px 30px 0 var(--box-shadow);
+  color: var(--white);
+  padding: 6px 20px;
+  transition: 0.3s;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.seeHomes:hover {
+  background: var(--color2);
+  color: var(--white);
 }
 
 /* ============================= Disable aos on mobile =============================*/
@@ -411,7 +424,7 @@ h6 {
 #home {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/hero-bg.png") top center;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
 }
