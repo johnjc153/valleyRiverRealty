@@ -481,6 +481,7 @@ h6 {
 @media (max-width: 768px) {
   #home {
     text-align: center;
+    height: calc(100vh - 110px);
   }
   #home .container {
     padding-top: 40px;
@@ -629,6 +630,16 @@ section {
   height: 30vh;
 }
 
+.goals .post-entry {
+  margin-left: 10px;
+  padding-bottom: 2rem;
+}
+
+
+.goals .post-entry .post-text {
+  margin-left: 10px;
+}
+
 /* ============================= Details =============================*/
 #details {
   padding: 60px 0;
@@ -715,13 +726,25 @@ section {
 }
 
 @media (max-width: 768px) {
+  #details .details-img-1 {
+    height: 50vh;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  
   #details .details-img-2 {
-    height: auto;
+    height: 50vh;
   }
-  #details .details-img-2 img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
+  
+  #details .content-1 p {
+  padding-right: 0;
+  margin-left: 10px;
+  padding-bottom: 2rem;
+}
+
+#details .content-2 p {
+  padding-bottom: 2rem;
+}
 }
 
 /* ============================= services =============================*/
