@@ -635,7 +635,6 @@ section {
   padding-bottom: 2rem;
 }
 
-
 .goals .post-entry .post-text {
   margin-left: 10px;
 }
@@ -735,6 +734,14 @@ section {
   #details .details-img-2 {
     height: 50vh;
   }
+
+  #details #try1 {
+  background-size: 800px 1000px;
+}
+
+#details #try2 {
+  background-size: 800px 900px;
+}
   
   #details .content-1 p {
   padding-right: 0;
@@ -777,16 +784,6 @@ section {
 #services #content2 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/goals.jpg") fixed center right;
   background-size: 950px 1000px;
-}
-
-@media (max-width: 768px) {
-  #services .details-img-1 {
-    height: auto;
-  }
-  #services .details-img-1 img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
 }
 
 #services .content-1 p {
@@ -832,13 +829,33 @@ section {
 }
 
 @media (max-width: 768px) {
+  #services .details-img-1 {
+    height: 50vh;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  
+#services #content1 {
+  background-size: 800px 800px;
+}
+
+#services #content2 {
+  background-size: 800px 800px;
+}
+
   #services .details-img-2 {
-    height: auto;
+    height: 50vh;
   }
-  #services .details-img-2 img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
+  
+  #services .content-1 p {
+  padding-right: 0;
+  margin-left: 10px;
+  padding-bottom: 2rem;
+}
+
+#services .content-2 p {
+  padding-bottom: 2rem;
+}
 }
 
 /* ============================= projects =============================*/
@@ -1247,6 +1264,8 @@ section {
 @media (max-width: 768px) {
   #serHero {
     text-align: center;
+  height: calc(50vh - 110px);
+
   }
   #serHero .container {
     padding-top: 40px;
@@ -1833,6 +1852,7 @@ section {
 @media (max-width: 768px) {
   #conHero {
     text-align: center;
+    height: calc(90vh - 110px);
   }
   #conHero .container {
     padding-top: 40px;
