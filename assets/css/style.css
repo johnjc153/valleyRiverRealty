@@ -637,7 +637,7 @@ section {
 }
 
 .goals .post-entry img {
-  height: 30vh;
+  width: 100vw;
 }
 
 .goals .post-entry {
@@ -649,17 +649,6 @@ section {
   margin-left: 10px;
 }
 
-@media (max-width: 1024px) {
-  .goals .post-entry img {
-    width: 100vw;
-  }
-}
-
-@media (max-width: 768px) {
-  .goals .post-entry img {
-    width: 100vw;
-  }
-}
 /* ============================= Details =============================*/
 #details {
   padding: 60px 0;
