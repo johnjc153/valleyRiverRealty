@@ -120,13 +120,6 @@ h6 {
   color: var(--white);
 }
 
-/* ============================= Disable aos on mobile =============================*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
 /* ============================= Top Bar =============================*/
 #topbar {
   background: var(--color5);
@@ -200,6 +193,14 @@ h6 {
 
 .scrolled-offset {
   margin-top: 70px;
+}
+@media (max-width: 768px) {
+  #header {
+    height: 50px;
+  }
+  #header .logo {
+    font-size: 20px;
+  }
 }
 
 /* ============================= Nav Menu =============================*/
@@ -481,7 +482,7 @@ h6 {
 @media (max-width: 768px) {
   #home {
     text-align: center;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 90px);
   }
   #home .container {
     padding-top: 40px;
@@ -539,8 +540,8 @@ section {
   z-index: 2;
 }
 
-@media (max-width: 768px){
-  .section-title p{
+@media (max-width: 768px) {
+  .section-title p {
     margin-left: 10px;
   }
 }
@@ -736,28 +737,28 @@ section {
     margin-top: 0;
     margin-bottom: 2rem;
   }
-  
+
   #details .details-img-2 {
     height: 50vh;
   }
 
   #details #try1 {
-  background-size: 800px 1000px;
-}
+    background-size: 600px 800px;
+  }
 
-#details #try2 {
-  background-size: 800px 900px;
-}
-  
+  #details #try2 {
+    background-size: 750px 800px;
+  }
+
   #details .content-1 p {
-  padding-right: 0;
-  margin-left: 10px;
-  padding-bottom: 2rem;
-}
+    padding-right: 0;
+    margin-left: 10px;
+    padding-bottom: 2rem;
+  }
 
-#details .content-2 p {
-  padding-bottom: 2rem;
-}
+  #details .content-2 p {
+    padding-bottom: 2rem;
+  }
 }
 
 /* ============================= services =============================*/
@@ -840,28 +841,28 @@ section {
     margin-top: 0;
     margin-bottom: 2rem;
   }
-  
-#services #content1 {
-  background-size: 800px 800px;
-}
 
-#services #content2 {
-  background-size: 800px 800px;
-}
+  #services #content1 {
+    background-size: 800px 800px;
+  }
+
+  #services #content2 {
+    background-size: 800px 800px;
+  }
 
   #services .details-img-2 {
     height: 50vh;
   }
-  
-  #services .content-1 p {
-  padding-right: 0;
-  margin-left: 10px;
-  padding-bottom: 2rem;
-}
 
-#services .content-2 p {
-  padding-bottom: 2rem;
-}
+  #services .content-1 p {
+    padding-right: 0;
+    margin-left: 10px;
+    padding-bottom: 2rem;
+  }
+
+  #services .content-2 p {
+    padding-bottom: 2rem;
+  }
 }
 
 /* ============================= projects =============================*/
@@ -954,38 +955,38 @@ section {
     margin-top: 0;
     margin-bottom: 0;
   }
-  
+
   #projects .details-img-1 {
     height: 50vh;
   }
 
   #projects #content1 {
-  background-size: 800px 1000px;
-}
+    background-size: 800px 1000px;
+  }
 
-#projects #content2 {
-  background-size: 800px 900px;
-}
-  
+  #projects #content2 {
+    background-size: 800px 900px;
+  }
+
   #projects .content-2 p {
-  padding-right: 0;
-  margin-left: 10px;
-  padding-bottom: 2rem;
-}
+    padding-right: 0;
+    margin-left: 10px;
+    padding-bottom: 2rem;
+  }
 
-#projects .content-1 {
-  padding-top: 2rem;
-}
+  #projects .content-1 {
+    padding-top: 2rem;
+  }
 
-#projects .content-1 p {
-  margin-left: 10px;
-  padding-right: 0;
-}
+  #projects .content-1 p {
+    margin-left: 10px;
+    padding-right: 0;
+  }
 
-#projects .seeHomes {
-  display:flex;
-  justify-content: center;
-}
+  #projects .seeHomes {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /* ============================= vProject =============================*/
@@ -1300,8 +1301,7 @@ section {
 @media (max-width: 768px) {
   #serHero {
     text-align: center;
-  height: calc(50vh - 110px);
-
+    height: calc(50vh - 110px);
   }
   #serHero .container {
     padding-top: 40px;
@@ -1941,11 +1941,10 @@ section {
 }
 
 .contact #iframe {
-  border:0;
-  width: 80%; 
+  border: 0;
+  width: 80%;
   height: 400px;
 }
-
 
 .contact .info .email,
 .contact .info .phone {
@@ -2038,13 +2037,12 @@ section {
   background: var(--color2);
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .contact #iframe {
-  border:0;
-  width: 100%; 
-  height: 50vh;
-}
-
+    border: 0;
+    width: 100%;
+    height: 50vh;
+  }
 }
 
 @-webkit-keyframes animate-loading {

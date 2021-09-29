@@ -129,7 +129,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with ofset on links with a class name .scrollto
    */
   on('click', '.scrollto', function (e) {
     if (select(this.hash)) {
@@ -233,4 +233,12 @@
     })
   });
 
+
 })()
+
+AOS.init({
+  disable: function () {
+    var maxWidth = 800;
+    return window.innerWidth < maxWidth;
+  }
+});
