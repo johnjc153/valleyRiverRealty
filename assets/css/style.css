@@ -887,7 +887,7 @@ section {
   max-width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #services {
     padding: 0;
   }
@@ -895,15 +895,15 @@ section {
   #services .details-img-1 {
     height: 50vh;
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
   }
 
   #services #content1 {
-    background-size: 500px 700px;
+    background-size: 1100px 1366px;
   }
 
   #services #content2 {
-    background-size: 800px 800px;
+    background-size: 900px 1366px;
   }
 
   #services .details-img-2 {
@@ -918,6 +918,50 @@ section {
 
   #services .content-2 p {
     padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #services {
+    padding: 0;
+  }
+
+  #services .details-img-1 {
+    height: 50vh;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  #services #content1 {
+    background-size: 768px 1024px;
+  }
+
+  #services #content2 {
+    background-size: 800px 1024px;
+  }
+
+  #services .details-img-2 {
+    height: 50vh;
+  }
+
+  #services .content-1 p {
+    padding-right: 0;
+    margin-left: 10px;
+    padding-bottom: 2rem;
+  }
+
+  #services .content-2 p {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #services #content1 {
+    background-size: 500px 800px;
+  }
+
+  #services #content2 {
+    background-size: 500px 800px;
   }
 }
 
@@ -951,16 +995,6 @@ section {
 #projects #content2 {
   background: linear-gradient(rgba(2, 2, 2, 0), rgba(0, 0, 0, 0.5)), url("../img/residential.jpg") fixed center right;
   background-size: 951px 975px;
-}
-
-@media (max-width: 768px) {
-  #projects .details-img-1 {
-    height: auto;
-  }
-  #projects .details-img-1 img {
-    margin-left: 0;
-    padding-bottom: 30px;
-  }
 }
 
 #projects .content-1 p {
@@ -1005,6 +1039,46 @@ section {
   max-width: 100%;
 }
 
+@media (max-width: 1024px) {
+  #projects .details-img-2 {
+    height: 50vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  #projects .details-img-1 {
+    height: 50vh;
+  }
+
+  #projects #content1 {
+    background-size: 1000px 1366px;
+  }
+
+  #projects #content2 {
+    background-size: 800px 1366px;
+  }
+
+  #projects .content-2 p {
+    padding-right: 0;
+    margin-left: 10px;
+    padding-bottom: 2rem;
+  }
+
+  #projects .content-1 {
+    padding-top: 2rem;
+  }
+
+  #projects .content-1 p {
+    margin-left: 10px;
+    padding-right: 0;
+  }
+
+  #projects .seeHomes {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media (max-width: 768px) {
   #projects .details-img-2 {
     height: 50vh;
@@ -1042,6 +1116,16 @@ section {
   #projects .seeHomes {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #projects #content1 {
+    background-size: 500px 800px;
+  }
+
+  #projects #content2 {
+    background-size: 500px 800px;
   }
 }
 
