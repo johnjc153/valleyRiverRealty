@@ -221,18 +221,17 @@ h6 {
   position: relative;
 }
 
-.navbar > ul > li {
-  margin-left: 5px;
-}
-
 .navbar a,
 .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 15px 24px 15px;
-  font-size: 14px;
-  color: #fff;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-family: var(--font-family1);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
   white-space: nowrap;
   transition: 0.3s;
 }
