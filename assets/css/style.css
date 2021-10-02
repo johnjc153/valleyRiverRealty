@@ -226,11 +226,11 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 16px;
-  margin-left: 10px;
+  padding: 16px 12px;
+  margin-left: 5px;
   font-family: var(--font-family1);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--white);
   white-space: nowrap;
   transition: 0.3s;
