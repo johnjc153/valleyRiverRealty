@@ -83,6 +83,44 @@ h6 {
   opacity: 1;
 }
 
+
+/*--------------------------------------------------------------
+# Breadcrumbs   ededed
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 20px 0 20px 0;
+  background: #f7f7f7;
+  border-bottom: 1px solid var(--color1); 
+  margin-bottom: 40px;
+}
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color5);
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 5px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: var(--color2);
+  content: "/";
+}
+
+
 /* ============================= btn =============================*/
 .btn {
   border: none;
@@ -1578,6 +1616,7 @@ section {
   transition: 0.3s;
   position: relative;
   z-index: 1;
+  height: 60vh;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -1592,10 +1631,10 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #eb5d1e;
+  color: var(--color1);
   margin: 0 4px;
   line-height: 0;
-  background-color: #fff;
+  background-color: var(--white);
   padding-top: 6px;
   padding-right: 1px;
   border-radius: 50px;
@@ -1612,7 +1651,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #eb5d1e;
+  background: var(--color1);
   color: #fff;
 }
 
@@ -1628,8 +1667,8 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #fff;
+  font-size: 35px;
+  color: var(--white);
   font-weight: 600;
 }
 
@@ -1652,6 +1691,86 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
+/* ============================= portpage =============================*/
+.portfolio-details {
+  padding-top: 20px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+  height: 80vh;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: var(--white);
+  opacity: 1;
+  border: 1px solid var(--color6);
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--color1);
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(84, 84, 84, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+ @media (max-width: 1024px) {
+  .portfolio-details .portfolio-details-slider img {
+  width: 100%;
+  height: 45vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-details-slider img {
+  width: 100%;
+  height: 50vh;
+  }
+}
+
+
 
 /* ============================= team =============================*/
 .team .member {
