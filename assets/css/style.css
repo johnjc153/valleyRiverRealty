@@ -1539,11 +1539,16 @@ section {
   #proHero {
     background-attachment: fixed;
   }
+
+  #proHero {
+  height: calc(20vh - 110px);
+}
 }
 
 @media (max-width: 768px) {
   #proHero {
     text-align: center;
+    height: calc(10vh - 110px);
   }
   #proHero .container {
     padding-top: 40px;
@@ -1698,6 +1703,40 @@ section {
   opacity: 1;
   bottom: 0;
 }
+
+ @media (max-width: 1024px) {
+  .portfolio .portfolio-wrap img {
+    height: 35vh;
+  }
+
+  .portfolio .portfolio-wrap #res {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio .portfolio-wrap img {
+    height: 50vh;
+  }
+
+  .portfolio .portfolio-wrap #res {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .portfolio .portfolio-wrap img {
+    width: 100%;
+    padding-top: 0;
+  }
+  
+  .portfolio .portfolio-wrap #res {
+    width: 100%;
+    height: 40vh;
+    padding-top: 10px;
+  }
+}
+
 
 /* ============================= portpage =============================*/
 .portfolio-details {
