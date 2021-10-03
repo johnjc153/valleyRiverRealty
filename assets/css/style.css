@@ -1619,6 +1619,13 @@ section {
   height: 60vh;
 }
 
+.portfolio .portfolio-wrap #res {
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+  height: 40vh;
+}
+
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 0;
   left: 0;
